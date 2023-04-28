@@ -1,6 +1,6 @@
 # sp_Develop
 To check the health status of ms-sql tables
-1. Download a copy of the stored procedure sp_Develop. Execute the stored procedure to create it on your SQL Server.
+1. Download a copy of the stored procedure sp_Develop. Execute the stored procedure to create it on your SQL Server. 
 2. After installing , EXECUTE dbo.sp_Develop;
 3. To skip Checks , EXEC dbo.sp_Develop
    ,@SkipCheckDatabase = N'pubs'
